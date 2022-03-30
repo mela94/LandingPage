@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,700&display=swap');
+
+* {
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    height: 300px;
+}
+
+#navbar{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+#logo  {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+}
+nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 20px;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin: auto;
+    width: auto;
+    min-height: 500px;
+}
+
+h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+#boton1{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #3882f6;
+    height: 30px;
+    width: 200px;
+    color: #e5e7eb;
+}
+
+#intro{
+    width: 1000px;
+    display: flex;
+    border: solid #e5e7eb;
+    padding-left: 200px;
+}
+
+.prim .seg {
+    display: flex;
+    flex-direction: column;
+}
+
+#imagen{
+    height: 200px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+h2{
+    font-size: 36px;
+    font-style: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 250px;
+}
+
+.cuadro{
+    border: 4px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#quote{
+    background-color: #e5e7eb;
+    height: 250px;
+    text-align: center;
+    width: auto;
+}
+
+#quote p{
+    font-size: 20px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#texto{
+    padding: 100px;
+}
+
+#autor{
+    text-align: right;
+}
+
+.container1{
+    height: 200px;
+    width: auto;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.contenido{
+    background-color: #3882f6;
+    border: solid #3882f6;
+    height: 100px;
+    width: 500px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+#click{
+    font-style: italic;
+    font-size: 13px;
+}
+
+#Registrarse{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: #f9faf8;
+    padding: 10px;
+    margin-top: 30px;
+    width: 100px;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+}
